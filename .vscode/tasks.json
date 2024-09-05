@@ -1,0 +1,78 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build_exercise_1",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-g",
+          "${workspaceFolder}/src/exercise_1.cpp",
+          "-o",
+          "${workspaceFolder}/build/exercise_1.out"
+        ],
+        "group": "build",
+        "problemMatcher": [
+          "$gcc"
+        ],
+      }, {
+        "label": "build_exercise_2",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-g",
+          "${workspaceFolder}/src/exercise_2.cpp",
+          "${workspaceFolder}/src/sum.cpp",
+
+          "-o",
+          "${workspaceFolder}/build/exercise_2.out"
+        ],
+        "group": "build",
+        "problemMatcher": [
+          "$gcc"
+        ],
+      }, {
+        "label": "build_exercise_3",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-g",
+          "${workspaceFolder}/src/exercise_3.cpp",
+          "-o",
+          "${workspaceFolder}/build/exercise_3.out"
+        ],
+        "group": "build",
+        "problemMatcher": [
+          "$gcc"
+        ],
+      }, {
+        "label": "build_exercise_4",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-g",
+          "${workspaceFolder}/src/exercise_4.cpp",
+          "-o",
+          "${workspaceFolder}/build/exercise_4.out"
+        ],
+        "group": "build",
+        "problemMatcher": [
+          "$gcc"
+        ],
+      }, {
+        "label": "build_exercise_5",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-g",
+          "${workspaceFolder}/src/exercise_5.cpp",
+          "-o",
+          "${workspaceFolder}/build/exercise_5.out"
+        ],
+        "group": "build",
+        "problemMatcher": [
+          "$gcc"
+        ],
+      } 
+    ]
+  }
